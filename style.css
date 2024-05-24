@@ -1,0 +1,130 @@
+/* General styles */
+body {
+    margin: 0; /* Changed from margin-left: 100px; margin-right: 100px; to margin: 0 for better use of Flexbox for alignment */
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DC143C; 
+}
+
+h1, h2 {
+    text-align: center;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #B0C4DE;
+    padding: 25px;
+    margin: 16px auto; /* Changed to margin: 16px auto to center the container */
+    width: 80%; /* Added width: 80% to keep the content within a defined width */
+    background-color: gray;
+}
+
+/* Colors panel */
+.color-design {
+    display: flex; /* Added display: flex for Flexbox layout */
+    justify-content: space-around; /* Added justify-content: space-around for even spacing */
+    flex-wrap: wrap; /* Added flex-wrap: wrap to allow wrapping of panels */
+}
+
+.color-panel {
+    margin: 15px; /* Changed margin from 30px auto to 15px for consistent spacing */
+    padding: 15px; /* Changed padding to 15px for consistent spacing */
+    width: 20%; /* Changed width to 20% for consistent panel size */
+    text-align: center;
+}
+
+.color-panel p {
+    margin: 10px 0; /* Added margin: 10px 0 for consistent spacing within panels */
+}
+
+.aquamarine {
+    background-color: #7FFFD4;
+}
+
+.crimson {
+    background-color: #DC143C;
+    color: white;
+}
+
+.lightsteelblue {
+    background-color: #B0C4DE;
+}
+
+.turquoise {
+    background-color: #40E0D0;
+}
+
+.color-name {
+    display: block;
+    margin: 1em;
+}
+
+.color-hex {
+    display: block;
+    margin: 1em;
+}
+
+/* Fonts panel */
+.font-design {
+    display: flex; /* Added display: flex for Flexbox layout */
+    justify-content: space-around; /* Added justify-content: space-around for even spacing */
+    flex-wrap: wrap; /* Added flex-wrap: wrap to allow wrapping of panels */
+}
+
+.font-panel {
+    width: 30%; /* Added width: 30% for consistent panel size */
+    text-align: center;
+}
+
+/* Text styles panel */
+.text-design {
+    display: flex; /* Added display: flex for Flexbox layout */
+    justify-content: space-around; /* Added justify-content: space-around for even spacing */
+    flex-wrap: wrap; /* Added flex-wrap: wrap to allow wrapping of panels */
+}
+
+.text-panel {
+    width: 30%; /* Added width: 30% for consistent panel size */
+}
+
+.text-panel p {
+    margin-top: 50px ;
+}
+
+.text-panel h2 {
+    margin-top: 35px;
+}
+
+.font-label {
+    text-decoration: underline;
+}
+
+/* Font families */
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Font styles */
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
